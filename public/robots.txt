@@ -1,0 +1,4 @@
+# PRE-LAUNCH DEFAULT
+# Keep previews and unqualified origins out of search until the canonical EndureLuxe production domain is explicitly launched.
+User-agent: *
+Disallow: /
