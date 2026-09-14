@@ -22,11 +22,25 @@ Historical copies may remain in archived evidence but must not return to public 
 
 The first commercial product is **The 45**, a 45-day consistency practice. It sells structure and accountability around participant-selected appropriate activity; it does not sell diagnosis, clinical exercise prescription or guaranteed body transformation.
 
+The 45 is also explicitly **not** an AI coach or a supplement programme. Those are excluded product categories for V1 and must not be introduced by implication, copy, feature design or implementation without a later governed product decision.
+
 ## Commercial sequence
 
 Audience → The 45 → Endure Club → Endure Days → optional Field Kit products after demand.
 
 Inventory-heavy retail is not the V1 model.
+
+## Commercial and data-control implementation decisions
+
+The following decisions were adopted in merged PR #1 and are part of the governing V1 product boundary rather than PR-history-only context:
+
+- Registration and payment use explicit adapters. No fake checkout is permitted.
+- Preview registration must not claim durable persistence when no registration endpoint is configured.
+- Preview and non-canonical hosts must remain `noindex`; pre-launch static robots defaults fail closed until canonical launch is explicitly qualified.
+- V1 founding registration intentionally avoids health/special-category data.
+- Marketing consent is separate and optional.
+
+Implementation may strengthen these controls, but may not silently weaken or bypass them.
 
 ## Data boundary
 
